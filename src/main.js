@@ -3,8 +3,13 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import * as components from './components'
 
 Vue.config.productionTip = false
+
+Object.values(components).forEach(component => {
+  Vue.use(component)
+})
 
 /* eslint-disable no-new */
 new Vue({
