@@ -14,9 +14,8 @@ export default {
 @import '@/assets/aface/variables.scss';
 .av-button-text {
   background-color: transparent;
-  outline-style: none;
   &:hover {
-    background-color: #eee;
+    background-color: #f6f6f6;
   }
 }
 </style>

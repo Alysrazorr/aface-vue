@@ -1,7 +1,5 @@
 <template>
-  <av-ripple class="av-button">
-    <slot></slot>
-  </av-ripple>
+  <av-ripple class="av-button"><slot></slot></av-ripple>
 </template>
 
 <script>

@@ -1,7 +1,33 @@
+$color-0: #000;
+$color-1: #111;
+$color-2: #222;
+$color-3: #333;
+$color-4: #444;
+$color-5: #555;
+$color-6: #666;
+$color-7: #777;
+$color-8: #888;
+$color-9: #999;
+$color-a: #aaa;
+$color-b: #bbb;
+$color-c: #ccc;
+$color-d: #ddd;
+$color-e: #eee;
+$color-f: #fff;
+
 $color-primary: #00685b;
 $color-primary-light: #439688;
 $color-primary-dark: #003d32;
 $color-primary-text: #ffffff;
+
+*.none-select {
+    -moz-user-select: none;
+    -o-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
 
 /**
  * The default transition, used when the element is visible
@@ -12,9 +38,9 @@ $color-primary-text: #ffffff;
  * @group transition
  */
 
- $md-transition-default-timing: cubic-bezier(.4, 0, .2, 1);
- $md-transition-default-duration: .4s;
- $md-transition-default: $md-transition-default-duration $md-transition-default-timing;
+ $av-transition-default-timing: cubic-bezier(.4, 0, .2, 1);
+ $av-transition-default-duration: .4s;
+ $av-transition-default: $av-transition-default-duration $av-transition-default-timing;
  
  
  /**
@@ -26,9 +52,9 @@ $color-primary-text: #ffffff;
   * @group transition
   */
  
- $md-transition-enter-timing: cubic-bezier(0, 0, .2, 1);
- $md-transition-enter-duration: .4s;
- $md-transition-enter: $md-transition-enter-duration $md-transition-enter-timing;
+ $av-transition-enter-timing: cubic-bezier(0, 0, .2, 1);
+ $av-transition-enter-duration: .4s;
+ $av-transition-enter: $av-transition-enter-duration $av-transition-enter-timing;
  
  
  /**
@@ -40,9 +66,9 @@ $color-primary-text: #ffffff;
   * @group transition
   */
  
- $md-transition-leave-timing: cubic-bezier(.4, .0, 1, 1);
- $md-transition-leave-duration: .4s;
- $md-transition-leave: $md-transition-leave-duration $md-transition-leave-timing;
+ $av-transition-leave-timing: cubic-bezier(.4, .0, 1, 1);
+ $av-transition-leave-duration: .4s;
+ $av-transition-leave: $av-transition-leave-duration $av-transition-leave-timing;
  
  
  /**
@@ -54,9 +80,9 @@ $color-primary-text: #ffffff;
   * @group transition
   */
  
- $md-transition-stand-timing: cubic-bezier(.25, .8, .25, 1);
- $md-transition-stand-duration: .4s;
- $md-transition-stand: $md-transition-stand-duration $md-transition-stand-timing;
+ $av-transition-stand-timing: cubic-bezier(.25, .8, .25, 1);
+ $av-transition-stand-duration: .4s;
+ $av-transition-stand: $av-transition-stand-duration $av-transition-stand-timing;
  
  
  /**
@@ -68,7 +94,7 @@ $color-primary-text: #ffffff;
   * @group transition
   */
  
- $md-transition-drop-timing: cubic-bezier(.55, 0, .55, .2);
- $md-transition-drop-duration: .4s;
- $md-transition-drop: $md-transition-drop-duration $md-transition-drop-timing;
+ $av-transition-drop-timing: cubic-bezier(.55, 0, .55, .2);
+ $av-transition-drop-duration: .4s;
+ $av-transition-drop: $av-transition-drop-duration $av-transition-drop-timing;
  
