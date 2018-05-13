@@ -1,12 +1,3 @@
 <template>
-  <av-button>123</av-button>
+  <div></div>
 </template>
-
-<script>
-export default {
-}
-</script>
-
-<style lang="scss">
-
-</style>

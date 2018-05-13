@@ -1,7 +1,7 @@
 <template>
-  <button class="av-button">
-    <slot />
-  </button>
+  <av-ripple class="av-button">
+    <slot></slot>
+  </av-ripple>
 </template>
 
 <script>
@@ -11,7 +11,7 @@ export default {
 </script>
 
 <style lang="scss">
-button.av-button {
+.av-button {
   cursor: pointer;
   border: 0;
   border-radius: 3px;
