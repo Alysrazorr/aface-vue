@@ -1,4 +1,4 @@
-import Aface from '@/aface.js'
+import Aface from '@/core'
 import AvResponsiveColumn from './AvResponsiveColumn'
 
 export default Vue => {

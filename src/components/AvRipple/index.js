@@ -1,4 +1,4 @@
-import Aface from '@/aface.js'
+import Aface from '@/core'
 import AvRipple from './AvRipple'
 
 export default Vue => {

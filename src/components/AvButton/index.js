@@ -1,4 +1,4 @@
-import Aface from '@/aface.js'
+import Aface from '@/core'
 import AvButton from './AvButton'
 import AvContainedButton from './AvContainedButton'
 import AvOutlinedButton from './AvOutlinedButton'
