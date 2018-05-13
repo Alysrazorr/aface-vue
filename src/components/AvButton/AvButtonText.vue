@@ -1,18 +1,18 @@
 <template>
-  <av-button class="av-text-button">
+  <av-button class="av-button-text">
     <slot></slot>
   </av-button>
 </template>
 
 <script>
 export default {
-  name: 'av-text-button'
+  name: 'AvButtonText'
 }
 </script>
 
 <style lang="scss">
 @import '@/assets/aface/variables.scss';
-.av-text-button {
+.av-button-text {
   background-color: transparent;
   outline-style: none;
   &:hover {

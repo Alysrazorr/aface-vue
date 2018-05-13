@@ -1,15 +1,15 @@
 <template>
-  <div class="av-responsive-container">
+  <av-button class="av-button-contained">
     <slot></slot>
-  </div>
+  </av-button>
 </template>
 
 <script>
 export default {
-  name: 'av-responsive-container'
+  name: 'AvButtonContained'
 }
 </script>
 
 <style lang="scss">
-@import './variables.scss';
+
 </style>

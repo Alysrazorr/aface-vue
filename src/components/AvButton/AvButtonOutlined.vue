@@ -1,12 +1,12 @@
 <template>
-  <av-button class="av-outlined-button">
+  <av-button class="av-button-outlined">
     <slot></slot>
   </av-button>
 </template>
 
 <script>
 export default {
-  name: 'av-outlined-button'
+  name: 'AvButtonOutlined'
 }
 </script>
 

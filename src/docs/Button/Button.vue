@@ -1,10 +1,10 @@
 <template>
   <div>
     <av-button>Button</av-button>
-    <av-contained-button>Contained Button</av-contained-button>
-    <av-outlined-button>Outlined Button</av-outlined-button>
-    <av-text-button>Text Button</av-text-button>
-    <av-toggle-button>Toggle Button</av-toggle-button>
+    <av-button-contained>Contained Button</av-button-contained>
+    <av-button-outlined>Outlined Button</av-button-outlined>
+    <av-button-text>Text Button</av-button-text>
+    <av-button-toggle>Toggle Button</av-button-toggle>
   </div>
 </template>
 

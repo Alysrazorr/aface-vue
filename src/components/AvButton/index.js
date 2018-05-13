@@ -1,15 +1,15 @@
 import Aface from '@/core'
 import AvButton from './AvButton'
-import AvContainedButton from './AvContainedButton'
-import AvOutlinedButton from './AvOutlinedButton'
-import AvTextButton from './AvTextButton'
-import AvToggleButton from './AvToggleButton'
+import AvButtonContained from './AvButtonContained'
+import AvButtonOutlined from './AvButtonOutlined'
+import AvButtonText from './AvButtonText'
+import AvButtonToggle from './AvButtonToggle'
 
 export default Vue => {
   Aface(Vue)
-  Vue.component(AvButton.name, AvButton)
-  Vue.component(AvContainedButton.name, AvContainedButton)
-  Vue.component(AvOutlinedButton.name, AvOutlinedButton)
-  Vue.component(AvTextButton.name, AvTextButton)
-  Vue.component(AvToggleButton.name, AvToggleButton)
+  Vue.component('av-button', AvButton)
+  Vue.component('av-button-contained', AvButtonContained)
+  Vue.component('av-button-outlined', AvButtonOutlined)
+  Vue.component('av-button-text', AvButtonText)
+  Vue.component('av-button-toggle', AvButtonToggle)
 }

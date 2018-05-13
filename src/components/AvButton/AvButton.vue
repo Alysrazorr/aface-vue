@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: 'av-button'
+  name: 'AvButton'
 }
 </script>
 

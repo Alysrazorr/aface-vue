@@ -1,12 +1,12 @@
 <template>
-  <av-button class="av-contained-button">
+  <av-button class="av-button-toggle">
     <slot></slot>
   </av-button>
 </template>
 
 <script>
 export default {
-  name: 'av-contained-button'
+  name: 'AvButtonToggle'
 }
 </script>
 
