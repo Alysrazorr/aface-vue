@@ -10,10 +10,9 @@
 
 <script>
 export default {
-  name: 'docs-components-buttons'
 }
 </script>
 
-<style lang="scss">
+<style>
 
 </style>
